@@ -90,7 +90,7 @@ if player_answer == "b" or player_answer == "B":
     quiz_score += 1
 else:
     print("Incorrect Answer. The correct answer is B\n")  
-    
+
 
 print("(John Carlo Nolluda)8. What is tallest mountain in the world?")
 print("A. Mt. Kilamanjaro  B. Mt. Everest")
@@ -127,6 +127,8 @@ if player_answer == "c" or player_answer == "C":
     quiz_score += 1
 else:
     print("Incorrect Answer. The correct answer is C\n")
+
+print(f"You got {quiz_score} / 10")
     
     
 
