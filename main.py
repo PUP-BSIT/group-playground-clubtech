@@ -2,10 +2,13 @@
 quiz_score = 0
 
 #Created a question for the user to answer
-print("(John Matthew Arroyo)1. Who is Luffy's grandfather in One Piece?\n A. Garp\n B. Smoker\n C. Crocodile\n D. Dragon\n")
+print("(John Matthew Arroyo)1. Who is Luffy's grandfather in One Piece?")
+print("A. Garp   B. Smoker")
+print("C. Dragon D. Kaido")
+
 
 #Created a variable that will let the user input their answer
-player_answer = input("Enter your answer: ")
+player_answer = input("\nEnter your answer: ")
 
 #If statements to check if the user inputted the correct answer
 if player_answer == "a" or player_answer == "A":
@@ -15,9 +18,11 @@ else:
     print("Incorrect Answer. The correct answer is A\n")
     
 #THE REST OF THE QUESTIONS FOLLOW THE SAME PATTERN   
-print("(John Matthew Arroyo)2. Who is Luffy's vice captain?\n A. Ussop\n B. Mihawk\n C. Zoro\n D. Nami\n")
+print("(John Matthew Arroyo)2. Who is Luffy's vice captain?")
+print("A. Mihawk B. Ussopp")
+print("C. Zoro   D. Nami")
 
-player_answer = input("Enter your answer: ")
+player_answer = input("\nEnter your answer: ")
 
 if player_answer == "c" or player_answer == "C":
     print("Correct Answer!\n")
@@ -25,9 +30,11 @@ if player_answer == "c" or player_answer == "C":
 else:
     print("Incorrect Answer. The correct answer is C\n")
     
-print("(John Matthew Arroyo)3. Who owns the treasure One Piece?\n A. Gold Roger\n B. Luffy\n C. Shiki\n D. No one\n")
+print("(John Matthew Arroyo)3. Who owns the treasure One Piece?")
+print("A. Gold Roger B. Luffy")
+print("C. Shiki      D. No one")
 
-player_answer = input("Enter your answer: ")
+player_answer = input("\nEnter your answer: ")
 
 if player_answer == "d" or player_answer == "D":
     print("Correct Answer!\n")
