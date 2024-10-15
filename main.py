@@ -92,54 +92,6 @@ else:
     print("Incorrect Answer. The correct answer is B\n")  
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print("(John Carlo Nolluda)8. What is tallest mountain in the world?")
 print("A. Mt. Kilamanjaro  B. Mt. Everest")
 print("C. Mt. Manaslu      D. Mt. K2")
