@@ -6,7 +6,6 @@ print("(John Matthew Arroyo)1. Who is Luffy's grandfather in One Piece?")
 print("A. Garp   B. Smoker")
 print("C. Dragon D. Kaido")
 
-
 #Created a variable that will let the user input their answer
 player_answer = input("\nEnter your answer: ")
 
