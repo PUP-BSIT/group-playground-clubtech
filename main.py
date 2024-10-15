@@ -89,13 +89,6 @@ if player_answer == "b" or player_answer == "B":
     print("Correct Answer!\n")
     quiz_score += 1
 else:
-    print("Incorrect Answer. The correct answer is B\n")
-
-
-
-    
-
-    
-
+    print("Incorrect Answer. The correct answer is B\n")  
 
 
