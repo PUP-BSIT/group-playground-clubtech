@@ -43,18 +43,18 @@ else:
 
 print("(Franco Alfonso Lazaro)4. Who is the assassin known as 'The Reaper' who became class 3-E New Teacher in Assassination Classroom?")
 print("A. Nagisa Shiota  B. Itona Horibe ")
-print("C. Karama Akabane C. Korosensei ")
+print("C. Karama Akabane D. Korosensei ")
 
 player_answer = input("\nEnter your answer: ")
 
-if player_answer == "c" or player_answer == "C":
+if player_answer == "d" or player_answer == "D":
     print("Correct Answer!\n")
     quiz_score += 1
 else:
-    print("Incorrect Answer. The correct answer is C\n")
+    print("Incorrect Answer. The correct answer is D\n")
 
 print("(Franco Alfonso Lazaro)5. Who is the samurai in Lupin the thid where he can cut through everything with his zantetsuken sword ?")
-print("A. Goemon  Ishikawa XIII C. Inspector Ganimard III ")
+print("A. Goemon  Ishikawa XIII B. Inspector Ganimard III ")
 print("C. Jigen Daisuke         D. Inspector Heiji Zenigata ")
 
 player_answer = input("\nEnter your answer: ")
