@@ -37,11 +37,7 @@ def total_price(orders, senior_id):
             grand_total *= 0.9 
         return grand_total
     
-def customer_details():
-    customer_name = input("Enter your name: ")
-    senior_id = int(input("Enter your senior id: "))
-    
-    return customer_name, senior_id
+
             
         
         
