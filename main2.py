@@ -21,6 +21,12 @@ def get_order():
     
     return orders
 
+def customer_details():
+    customer_name = input("Enter your name: ")
+    senior_id = int(input("Enter your senior id: "))
+    
+    return customer_name, senior_id
+
 def total_price(orders, senior_id):
     total_price = 0        
     for total in orders: 
