@@ -13,9 +13,28 @@ def get_order():
         
         user_confirm = input("Do you want to add another item? (yes-y/no-n): ").lower()
         
+        
         print(" ")
         
         if user_confirm != "y":
             break
     
     return orders
+
+def total_price(orders, senior_id):
+    total_price = 0        
+    for total in orders: 
+        total_price = orders[1] * orders[2]
+        grand_total = total_price 
+        
+        if senior_id: 
+            grand_total *= 0.9 
+        return grand_total
+            
+        
+        
+
+
+        
+    
+    
