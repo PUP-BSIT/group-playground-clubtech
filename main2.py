@@ -1,7 +1,7 @@
  # TODO(John Matthew Arroyo): create a function that will let the customer input the order details
  # TODO(Franco Lazaro): create a function that will calculate for the grand total (including the discount)
  # TODO(John Carlo Nolluda): create a function that will get customer details
- # TODO(John Matthew Arroyo): create a function that will display the receipt
+ # TODO(Arroyo-Nolluda-Lazaro): create a function that will display the receipt
 
 def get_order():
     orders = []
@@ -28,14 +28,15 @@ def customer_details():
     return customer_name, senior_id
 
 def total_price(orders, senior_id):
-    total_price = 0        
+    grand_total = 0        
     for total in orders: 
         total_price = orders[1] * orders[2]
-        grand_total = total_price 
+        grand_total += total_price 
         
         if senior_id: 
             grand_total *= 0.9 
-        return grand_total
+
+    return grand_total
     
 
             
