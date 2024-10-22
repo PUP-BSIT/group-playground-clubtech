@@ -38,10 +38,24 @@ def total_price(orders, senior_id):
 
     return grand_total
     
-
-            
+def display(orders, customer_name, senior_id, grand_total):
+    for item in orders:
+        print(f"PRODUCT: {orders[0]}    PRICE: {orders[1] * orders[2]}\n")      
+    
+    print(f"Customer Name: {customer_name}\n")
         
+    if senior_id:
+        print(f"SENIOR DISCOUNT APPLIED     Senior Id: {senior_id}\n")
+    else:
+        print("SENIOR DISCOUNT NOT APPLIED\n")
         
+    print(f"Grand Total:    {grand_total}")
+    
+    
+order = get_order()
+name, senior = customer_details()
+price = total_price(order, senior)
+display_all = display(order, name, senior, price)
 
 
         
